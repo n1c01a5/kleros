@@ -1,11 +1,11 @@
+pragma solidity ^0.4.15;
+
 /**
  *  @title Kleros POC
  *  @author Clément Lesaege - <clement@lesaege.com>
  *  This code implements a simple version of Kleros.
  *  Bug Bounties: This code hasn't undertaken a bug bounty program yet.
  */
-
-pragma solidity ^0.4.15;
 
 import "kleros-interaction/contracts/standard/arbitration/Arbitrator.sol";
 import {MiniMeTokenERC20 as Pinakion} from "kleros-interaction/contracts/standard/arbitration/ArbitrableTokens/MiniMeTokenERC20.sol";
